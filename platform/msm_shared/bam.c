@@ -142,7 +142,7 @@ void bam_init(struct bam_instance *bam)
 	/* bam is initialized by TZ, so nothing needs to be done here */
 }
 
-/* Funtion to setup a simple fifo structure.
+/* Function to setup a simple fifo structure.
  * Note: Addr should be 8 byte aligned.
  * bam : BAM instance for the descriptors to be queued.
  * pipe_num : pipe number for the descriptors to be queued.

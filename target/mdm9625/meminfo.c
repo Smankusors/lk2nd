@@ -48,7 +48,7 @@ struct smem_ram_ptable* target_smem_ram_ptable_init(void)
    return &ram_ptable;
 }
 
-/* Funtion to add the ram partition entries into device tree.
+/* Function to add the ram partition entries into device tree.
  * The function assumes that all the entire fixed memory regions should
  * be listed in the first bank of the passed in ddr regions.
  */

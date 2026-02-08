@@ -245,12 +245,12 @@ pm_err_flag_type pm_smbchg_misc_set_wdog_timeout(uint32 pmic_device, pm_smbchg_w
 
 
  /**
- * @brief This function clear/sets MISC funtions like VCHG, PA_ON, standby VCHG, CHGR_OK, PHY_ON, SYSOK_LDO
- * 
+ * @brief This function clear/sets MISC functions like VCHG, PA_ON, standby VCHG, CHGR_OK, PHY_ON, SYSOK_LDO
+ *
  * @details
- *  This function clear/sets MISC funtions like VCHG, PA_ON, standby VCHG, CHGR_OK, PHY_ON, SYSOK_LDO
- *  VCHG output proportional to the charger/discharge current. 
- * 
+ *  This function clear/sets MISC functions like VCHG, PA_ON, standby VCHG, CHGR_OK, PHY_ON, SYSOK_LDO
+ *  VCHG output proportional to the charger/discharge current.
+ *
  * @param[in] pmic_device_index.  Primary: 0 Secondary: 1
  * @param[in] misc_cfg            Refer pm_smbchg_misc_misc_fn_cfg_type for more info
  * @param[in]enable               TRUE sets and FALSE clears                                
@@ -265,12 +265,12 @@ pm_err_flag_type pm_smbchg_misc_config_misc_fn(uint32 pmic_device, pm_smbchg_mis
 
 
  /**
- * @brief This function reads MISC funtions status like VCHG, PA_ON, standby VCHG, CHGR_OK, PHY_ON, SYSOK_LDO
- * 
+ * @brief This function reads MISC functions status like VCHG, PA_ON, standby VCHG, CHGR_OK, PHY_ON, SYSOK_LDO
+ *
  * @details
- *  This function reads MISC funtions status like VCHG, PA_ON, standby VCHG, CHGR_OK, PHY_ON, SYSOK_LDO
- *  VCHG output proportional to the charger/discharge current. 
- * 
+ *  This function reads MISC functions status like VCHG, PA_ON, standby VCHG, CHGR_OK, PHY_ON, SYSOK_LDO
+ *  VCHG output proportional to the charger/discharge current.
+ *
  * @param[in] pmic_device_index.  Primary: 0 Secondary: 1
  * @param[in] misc_cfg            Refer pm_smbchg_misc_misc_fn_cfg_type for more info
  * @param[out]enable              TRUE sets and FALSE clears                 

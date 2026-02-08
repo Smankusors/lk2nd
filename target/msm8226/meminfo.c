@@ -36,7 +36,7 @@
 #include <dev_tree.h>
 #include <target.h>
 
-/* Funtion to add the ram partition entries into device tree.
+/* Function to add the ram partition entries into device tree.
  * The function assumes that all the entire fixed memory regions should
  * be listed in the first bank of the passed in ddr regions.
  */
